@@ -3,7 +3,9 @@ const auto = require("./config-auto");
 module.exports = {
     title: "Titank Engine",
     description: "Tencent Titank Layout Engine",
-    head: [],
+    head: [
+        ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ],
     markdown: {
         lineNumbers: false,
         toc: {
@@ -15,7 +17,7 @@ module.exports = {
             md.use(require("markdown-it-disable-url-encode"));
         }
     },
-    base: "/Test/",
+    base: "/",
     dest: "./docs/.vuepress/dist",
     themeConfig: {
         logo: "/logo_notitle.svg",

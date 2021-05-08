@@ -36,8 +36,8 @@ node_modules
 package-lock.json
 
 # docs
-
-docs/guide/.DS_Store
+docs/.vuepress/dist/*
+docs/.DS_Store
 docs/external_*
 
 */.DS_Store
