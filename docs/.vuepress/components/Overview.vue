@@ -6,7 +6,7 @@
       <RouterLink to="/documentation/properties.html#align-content">Align Content</RouterLink>
       <RouterLink to="/documentation/properties.html#align-items">Align Items</RouterLink>
       <RouterLink to="/documentation/properties.html#align-self">Align Self</RouterLink>
-      <RouterLink to="/documentation/properties.html#aspect-ratio">Aspect Ratio</RouterLink>
+      <!-- <RouterLink to="/documentation/properties.html#aspect-ratio">Aspect Ratio</RouterLink> -->
       <RouterLink to="/documentation/properties.html#flex-direction">Flex Direction</RouterLink>
       <RouterLink to="/documentation/properties.html#flex-wrap">Flex Wrap</RouterLink>
       <RouterLink to="/documentation/properties.html#flex-basis-grow-and-shrink">Flex Basis, Grow, and Shrink</RouterLink>
@@ -17,15 +17,15 @@
       <RouterLink to="/documentation/properties.html#width-and-height">Width and Height</RouterLink></div>
     <div class="category">
       <h2>Examples</h2>
-      <RouterLink class='disabled' to="">Flexible Text</RouterLink>
-      <RouterLink class='disabled' to="">Floating Buttons</RouterLink>
-      <RouterLink class='disabled' to="">Overlays</RouterLink>
+      <RouterLink class='disabled' to="">Flex Layout</RouterLink>
+      <!-- <RouterLink class='disabled' to="">Floating Buttons</RouterLink>
+      <RouterLink class='disabled' to="">Overlays</RouterLink> -->
     </div>
     <div class="category">
       <h2>Contributing</h2>
-      <RouterLink class='disabled' to="">Opening a Pull Request</RouterLink>
-      <RouterLink class='disabled' to="">Testing</RouterLink>
-      <RouterLink class='disabled' to="">Writing Documentation</RouterLink>
+      <a href="https://github.com/Tencent/Taitank/pulls">Opening a Pull Request</a>
+      <!-- <RouterLink class='disabled' to="">Testing</RouterLink>
+      <RouterLink class='disabled' to="">Writing Documentation</RouterLink> -->
     </div>
   </div>
 </template>
